@@ -4,8 +4,8 @@
  * Де замість name потрібно підставити ім'я користувача.
  */
 
-function greet(useraname) {
-  return `Hello, ${useraname}!`;
+function greet(username) {
+  return `Hello, ${username}!`;
 }
 
 console.log(greet("Jacob")); // Hello, Jacob!
