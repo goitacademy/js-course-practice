@@ -1,1 +1,1 @@
-# js-course-practice
+# Практика JavaScript
