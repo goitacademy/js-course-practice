@@ -4,11 +4,13 @@
  */
 
 function checkEvenOdd(number) {
-  if (number % 2 === 0) {
-    return "Even";
-  } else {
-    return "Odd";
-  }
+  // if (number % 2 === 0) {
+  //   return "Even";
+  // } else {
+  //   return "Odd";
+  // }
+
+  return number % 2 === 0 ? "Even" : "Odd";
 }
 
 console.log(checkEvenOdd(4)); // Even
