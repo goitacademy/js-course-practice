@@ -1,13 +1,14 @@
 /**
  * Створіть функцію isInStock, яка приймає необхідну
- * кількість товару в заказі, та доступну кількість
+ * кількість товару в замовленні, та доступну кількість
  * товару на складі і повертає true, якщо на складі
- * достатньо товару для заказу, і false в іншому випадку.
+ * достатньо товару для замовлення, і false в іншому випадку.
  */
 
 function isInStock(ordered, available) {
-  // return available >= ordered;
-  return ordered <= available;
+  // const result = ordered <= available;
+  // const result = available >= ordered;
+  return available >= ordered;
 }
 
 console.log(isInStock(20, 30)); // true
